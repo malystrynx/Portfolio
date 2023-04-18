@@ -23,7 +23,7 @@
         </div>
             <ul>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Project</a></li>
+                <li><a href="#">Projects</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#"><i class="fa-solid fa-circle-half-stroke"></i></a></li>
                 
@@ -50,26 +50,48 @@
     </div>
 </div>
     </header>
+    <!-- Mail -->
+    <button class="mail__btn click">
+        <i class="fa-solid fa-envelope"></i>
+    </button>
+    <a href="#projects" class="scroll">
+        <div class="scroll__icon click"></div>
+    </a>
     <!-- FOR JS TO MAKE EFFECTS AND IMAGE AND STARS -->
     <section id="projects">
         <div class="container">
-        <div class="project__desc">
+        <div class="row">
             <h1 class="blue project__title">See my work</h1>
             <h2 class="white project__size">Projects</h2>
         </div>
-        <div class="projects">
-            <div class="treact">
-                <img class="treact__image" src="./Pictures/treact.PNG" alt="">
-                <h1>Treact 1:1 </h1>
-                <p>Made a 1:1 Copy of Treact using HTML, CSS and some JavaScript</p>
-                <a href="" class="social__link click">
-                    <i class="fa-solid fa-link"></i>
-                </a>
-                <a href="" class="social__link click">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-            </div>
-        </div>
+        <ul class="project__list">
+            <li class="project">
+                <div class="project__wrapper">
+                    <img src="./Pictures/treact.PNG" class="project__img" alt="">
+                    <div class="project__wrapper--bg"></div>
+                    <div class="project__description">
+                    <h3 class="project__description--title">
+                        Treact
+                    </h3>
+                    <h4 class="project__description--sub-title">
+                        HTML, CSS, JavaScript
+                    </h4>
+                    <p class="project__description--para">
+                        Created my first project, which is a 1:1 replica of the website Treact.
+                    </p>
+                    <div class="project__description--links">
+                        <a href="#" class="project__description--link">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="#" class="project__description--link">
+                            <i class="fas fa-link"></i>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
     </div>
     </section>
 </body>
